@@ -43,3 +43,10 @@ button:hover {
     border-radius: 4px;
     background-color: #f9f9f9;
 }
+
+.align-map {
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+    display: block;
+}
