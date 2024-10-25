@@ -1,3 +1,4 @@
+
 document.getElementById('submitButton').addEventListener('click', async () => {
     const userInput = document.getElementById('userInput').value;
     const responseDiv = document.getElementById('response');
@@ -8,7 +9,7 @@ document.getElementById('submitButton').addEventListener('click', async () => {
     }
 
     try {
-        const response = await axios.post('https://api.example.com/ai', {
+        const response = await axios.post('http://localhost:3000/api/ai', {
             question: userInput
         });
 
